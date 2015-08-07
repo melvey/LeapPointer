@@ -1,0 +1,20 @@
+<html>
+  <head>
+	  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  </head>
+
+  <body>
+    <h1>Hello, LeapJS (V2)!</h1>
+
+    <div id="output"></div>
+    
+    <script src="https://js.leapmotion.com/leap-0.6.4.js"></script>
+    <script src="pointer.js"></script>
+    <script type="text/javascript">
+		LeapPointer.start();
+		LeapPointer.enableDebug(document.getElementById('output'));
+		LeapPointer.calibrate();
+	
+    </script>
+  </body>
+</html>
